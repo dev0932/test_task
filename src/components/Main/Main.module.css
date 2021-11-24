@@ -1,0 +1,27 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 1fr 2%;
+  min-height: calc(100vh - 82px);
+}
+
+.grid {
+  width: calc(100% - 60px);
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 12% 20% 25% 23% 20%;
+  grid-template-rows: max-content;
+}
+
+.container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.scroll {
+  height: 200%;
+}
+
+.left {
+  margin-left: 20px;
+  border-left: solid 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.wrapper h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(0, 153, 255);
+}
